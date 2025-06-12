@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: #ffffff;">
+    <h1>Chai aur Code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // setTimeout a method but it also callout an API.
+    //it is asynchronous, so other code does not wait for it to happen.
+    setTimeout(function(){
+        console.log("Shyam");
+    }, 2000) //2000ms delay before execution once.
+    
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "best JS series";
+    }
+    
+    const changeMe = setTimeout(changeText, 2000);
+
+    
+
+    document.querySelector('#stop').addEventListener('click', function(e){
+        clearTimeout(changeMe) //if i pressed the button before the event alerady happened then it will not happen 
+        console.log("STOPED");  
+    })
+
+    
+    
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout sirf ek baar run karta tha e delay ke saath but setInterval will run your code repeatedly after every given interval.
+    const sayDate = function(){
+        console.log("shyam", Date.now());
+    }
+
+
+    document.querySelector('#start').addEventListener('click',function(e){
+        Name = setInterval(sayDate, 1000)
+        
+    })
+    
+
+    document.querySelector('#stop').addEventListener('click',function(e){
+        clearInterval(Name)
+    })
+</script>
+</html>

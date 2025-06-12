@@ -1,0 +1,26 @@
+JavaScript introduced class syntax in ECMAScript 2015 (ES6). This syntax provides a much cleaner and more familiar way for developers coming from other object-oriented languages like Java or C++ to create objects and deal with inheritance.
+Even though this is syntactic sugar, underneath, JavaScript still uses prototype-based inheritance.
+
+##objects
+- collection of properties and methods.
+
+
+## parts of OOP
+object literals -> literally the object {}
+
+- Constructor function
+- Prototypes
+- Classes
+- Instances (new, this)
+
+## 4 pillars
+Abstraction : Abstraction means hiding complex implementation details and showing only the necessary parts of an object or system.
+
+Encapsulation : Encapsulation is a fundamental principle of object-oriented programming that means bundling data (properties) and the methods that operate on that data into a single unit — typically a class — and restricting direct access to some of the object’s components.
+
+inheritance : Inheritance is a core concept in object-oriented programming (OOP) that allows one class (called a child or subclass) to inherit properties and methods from another class (called a parent or superclass).
+This promotes code reuse and a clear hierarchy of types.
+
+Polymorphism : Polymorphism is an object-oriented programming (OOP) concept that means:
+"Same interface, different behavior."
+It allows different classes to define their own unique versions of a method, even if they share the same name. This makes code more flexible, reusable, and extensible.

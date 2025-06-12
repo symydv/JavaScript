@@ -1,0 +1,33 @@
+<!-- //DOM : Document Object Model -->
+ <!-- refer to lecture number 31 and above because all the code is done on browser -->
+
+<!-- mind that array, Node list and HTML collection are all different though they appear simillar.  WE can convert html collection into an array by using Array.from(name of html collection) -->
+<!-- We can use forEach loops on arrays and Node lists but not on HTMML collections so we need  to convert them into arrays first -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="learning">DOM learning on chai or code <span style="display: none;"> test text </span></h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+        <ul>
+            <li class="listItem">one</li>
+            <li class="listItem">two</li>
+            <li class="listItem">three</li>
+            <li class="listItem">four</li>
+        </ul>
+    </div>
+</body>
+</html>

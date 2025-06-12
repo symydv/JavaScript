@@ -1,0 +1,13 @@
+How Our Code Runs
+
+JAVASCRIPT EXECUTION CONTEXT
+ #Global EXECUTION CONTEXT
+ #Function EXECUTION CONTEXT
+ #Eval EXECUTION CONTEXT
+
+
+NOTICE : Refere to Chai aur code channel JAVASCRIPT series vedio number 25 JAVASCRIPT EXECUTION code + call stack 
+link = (https://youtu.be/ByhtOgF6uYM?si=7beszRLNw3PZ7HQK)
+
+
+ 
