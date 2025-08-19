@@ -29,7 +29,7 @@ class User{
     }
 }
 
-const shyam = new User("sym@123", "ABC");
+const shyam = new User("sym@123", "abc");
 
 console.log(shyam.password)
 console.log(shyam.email)

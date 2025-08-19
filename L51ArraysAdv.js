@@ -28,7 +28,7 @@ const myArray = []
 const array2 = [1,2,3,4,5] // PACKED_SMI_ELEMENTS(Most optimised type also called constinous smi) -> because no holes in array
 
 // PACKED_SMI_ELEMENTS is very strict as you can only have numbers in your array not even doubles are allowed
-array2.push(6.0) //here we added a double in our array so now oit became PACKED_DOUBLE_ELEMENTS
+array2.push(6.0) //here we added a double in our array so now it became PACKED_DOUBLE_ELEMENTS
 //we can not convert PACKED_DOUBLE_ELEMENTS back to PACKED_SMI_ELEMENTS, even after deleting double we have added 
 
 array2.push(7) // PACKED_ELEMENTS
